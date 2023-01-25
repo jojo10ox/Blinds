@@ -27,3 +27,34 @@ body {
    
 }
 
+#wood-blinds{
+    height:500px;
+}
+
+
+
+/* .image{
+    display: inline-block;
+    width:500px;
+    height: 500px;
+    padding: 70px;
+} */
+
+.images{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+.image{
+    max-width: 100%;
+}
+
+@media (max-width: 500px){
+   
+
+} 
+#image-header{
+    text-align: center;
+}
