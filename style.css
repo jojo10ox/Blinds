@@ -31,28 +31,20 @@ body {
     height:500px;
 }
 
-
-
-/* .image{
-    display: inline-block;
-    width:500px;
-    height: 500px;
-    padding: 70px;
-} */
-
 .images{
-    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
     display: grid;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-   
 }
 
-.image{
-    max-width: 100%;
-}
 
-@media (max-width: 500px){
-   
+@media (max-width: 1476px){
+   .images{
+    grid-template-columns: 1fr;
+    justify-items: center;
+   }
 
 } 
 #image-header{
