@@ -1,9 +1,11 @@
-
+@import url('https://css.gg/facebook.css');
+@import url('https://css.gg/instagram.css');
 
 body {
     min-height: 100%;
     min-width: 100%;   
   }
+
 #logo {
  height: 200px;
 }
@@ -46,7 +48,138 @@ body {
     justify-items: center;
    }
 
+    .phoneNumber{
+      float: left;
+    }
+
 } 
 #image-header{
     text-align: center;
 }
+
+.footer-col .social-media a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: black;
+    /* background-color: black; */
+    margin: 0 10px 10px 0;
+
+    /* line-height: 40px; */
+    transition: all 0.5s ease;
+
+}
+
+
+.footer-col .social-media a:hover{
+    color: white;
+    /* background-color: #000080; */
+    
+}
+
+.email{
+    color: black;
+}
+
+footer{
+    position: relative;
+    height: auto;
+    padding: 40px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+
+@media (max-width: 1476px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+.gg-facebook {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px
+   }
+   
+    .gg-facebook::after,
+    .gg-facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+   }
+   
+   .gg-facebook::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+   }
+   
+   .gg-facebook::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+   } 
+
+   .gg-instagram {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+   }
+   
+   .gg-instagram::after,
+   .gg-instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+   }
+   
+   .gg-instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+   }
+   
+   .gg-instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+   } 
