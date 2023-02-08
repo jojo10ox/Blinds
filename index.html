@@ -8,15 +8,16 @@
 <body>
     <div class="banner">
         <div class="quote">
-            <p>GET A FREE QUOTE</p>
+            <a href="#quote-form">GET A FREE QUOTE</a>
         </div>
     </div>
     <header>
         <a><img id="logo" src="images/logo2.jpeg" alt="logo"></a>
         <ul class="navigation">
-            <li><a href="#about-us">Free Quote</a></li>
+            
             <li><a href="#products">Our Products</a></li>
-            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#gallery">Lookbook</a></li>
+            <li><a href="#about-us">About Us</a></li>
         </ul>
         <div> 
             <p id="header-phone-number">Want help? Call: (832)-235-9646  </p>
@@ -43,6 +44,42 @@
                     <h2>Faux Wood Blinds</h2>
                 </div>
             </div>
+        </section>
+    </div>
+    <div class="quote-section">
+        <section id="quote-form">
+            <div class="container">
+                <h1 class="title">Free Quote</h1>
+                <div class="content">
+                    <form target="_blank" action="https://formsubmit.co/9e4d3f719843759f7486fb1d653fe4ec" method="POST" class="form1">
+                        <!-- honeypot -->
+                        <!-- <input type="text" name="_honey" style="display: none;"> -->
+                        <!-- disable captcha -->
+                        <!-- <input type="hidden" name="_captcha" value="false"> -->
+                        <div class="user-details">
+                            <div class="input-box">                        
+                                <label for="name" class="details">Name:</label><br>
+                                <input type="text" id="name" name="name" class="fields" required><br>
+                            </div>
+                            <div class="input-box">
+                                <label for="phone" class="details">Phone Number:</label><br>
+                                <input type="number" id="phone" name="phone" class="fields"  required><br>
+                            </div>
+                            <div class="input-box" class="details">
+                                <label for="email" class="details">Email:</label><br>
+                                <input type="email" id="email" name="email" class="fields" required><br>
+                            </div>
+                            <div class="input-box" class="details">
+                                <label for="zip" class="details">Zip Code:</label><br>
+                                <input type="number" id="zip" name="zip" class="fields" required><br>
+                            </div>
+                        </div>
+                        <!-- <input onclick="window.location.href = 'http://127.0.0.1:5501/;" type="submit" value="Submit" /> -->
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
         </section>
     </div>
     <div class="About">
