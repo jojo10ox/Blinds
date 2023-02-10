@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
     min-height: 100%;
     min-width: 100%; 
@@ -18,6 +18,8 @@ body {
 .banner a{
     color: white;
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight:300;
 }
 
 .banner a:hover{
@@ -61,6 +63,7 @@ header ul a{
     background-color: #000080;
     /* border-radius: 40px; */
     transition: .3s ease;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -71,6 +74,7 @@ header a:hover{
 #header-phone-number{
     position: relative;
     width: 240px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #logo{
@@ -199,7 +203,9 @@ header a:hover{
 .title {
     padding-top: 40px;
     color: rgb(68, 80, 145);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight:400;
+    /* font-family: 'Ubuntu', sans-serif; */
     font-weight: bold;
     font-size: 23px;
     position: relative;
@@ -216,7 +222,9 @@ header a:hover{
 
 form .user-details .input-box{
     margin-left: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight:300;
+    /* font-family: 'Ubuntu', sans-serif; */
     margin-bottom: 15px;
     width: calc(100% / 2 - 20px);
     }
@@ -246,7 +254,9 @@ form.form1 {
     margin-left: 50px;
     /* text-align: center; */
     margin-bottom: 27px;
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    font-weight:300;
 }
 
 .input-box:focus, .fields:focus {
@@ -264,7 +274,9 @@ form.form1 {
       padding-right: 40px;
       padding-bottom: 10px;
       padding-top: 10px;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: 'Oswald', sans-serif;
+      font-weight:300;
+      /* font-family: 'Ubuntu', sans-serif; */
       margin-left: 620px;
       font-size: 17px;
       box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
@@ -393,6 +405,17 @@ form.form1 {
 
 .footer-col .social-media a:hover{
     color: white;
+}
+
+.footer-col h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight:600;
+}
+
+.footer-col p{
+    /* font-family: 'Oswald', sans-serif;
+    font-weight:300; */
+    font-family: 'Roboto', sans-serif;
 }
 
 .email{
